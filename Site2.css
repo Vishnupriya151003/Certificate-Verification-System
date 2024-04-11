@@ -1,0 +1,136 @@
+body{
+    background: url("Kare/KARE6.jpg") no-repeat center center fixed #000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+
+.grp{    
+    transition: 0.5s;  
+    border-radius:10px;
+}
+
+.grpitems{
+    padding:0px 10px;
+    margin:10px;
+    width:auto;
+    height:auto;
+    border-radius: 10px;
+    
+}   
+
+.drop-content{
+    margin:20px;
+    
+}
+
+
+.grpcontent{
+    font-size: xx-large;
+    color:rgb(48,83,137,100%);
+    
+}
+
+.left{
+    width: 24.5%;
+    float:left;
+    padding:2px;
+    margin:10px;
+    margin-right: 0px;
+    background-color: rgba(30, 59, 139, 0.596);
+}
+
+.right{
+    width: 73.5%;
+    float:right;
+    margin:10px;
+    margin-left: 0px;
+    background-color: rgba(159, 244, 250, 0.5);
+    
+}
+
+.checkbox-container {
+    display: inline-block;
+    vertical-align: left;
+    margin-left: 10px; 
+    margin-bottom: 20%;
+
+    
+}
+
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000; 
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 50%;
+}
+
+
+.custom-checkbox input:checked + .custom-checkbox-inner {
+    background-color: var(--checkbox-color, #007BFF); 
+}
+
+
+.custom-checkbox-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+    margin-bottom: 50%;
+   
+}
+
+
+.container {
+    background-color: rgba(111, 143, 175, 0.5);
+    text-align: center;
+    border-color: rgb(0, 0, 139);
+    border-style: groove;
+    padding: 10px; 
+    
+    
+}
+
+
+.navbar-label {
+    color: white;
+   
+    font-size: x-large;
+    margin: 10px 0; 
+}
+
+
+label {
+    font-weight: bold;
+    margin-right: 5px; 
+}
+
+
+.navbar-value {
+    color: black; 
+}
+
+
+.container-label {
+    font-size: x-large;
+    font-weight: 700;
+    text-align: left;
+    color: #0B2E4F;
+}
+.label-check{
+    
+    font-size:x-large; 
+    font-weight:700; 
+    text-align:left;
+    color:#0B2E4F;
+}
+

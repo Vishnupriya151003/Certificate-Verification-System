@@ -1,0 +1,116 @@
+body{
+    background: url("Kare/KARE6.jpg") no-repeat center center fixed #000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+.headnav{
+    background-color: rgb(17,107,135,70%);
+    padding: 0px 10px;
+    overflow: hidden;
+    margin:-8px -8px -8px ;
+    transition: margin-left .5s;
+
+    
+}
+
+.main{    
+    transition: 0.5s;  
+    border-radius:10px;
+   
+}
+
+.mainitems{
+    background-color: rgb(48,83,137,100%);
+    padding:10px;
+    margin:10px;
+    width:auto;
+    height:auto;
+    border-radius: 10px;
+    
+}
+
+.maincontent{
+
+    color:white;
+    font-family: 'Brush Script MT';
+    
+}
+
+.citems{
+    font-size: large;
+    text-decoration: none;
+    font-weight: 600;
+    
+    margin:5px;
+    
+}
+
+.citems:hover,.content-items:hover{
+    background-color: rgb(0, 0, 111,70%);
+    color:white;
+}
+
+
+
+.Nav{
+    background-color: rgb(17,107,135,70%);
+    float:left;
+    overflow: auto;
+    margin:0px 0px 0px -8px;
+    height:100%;
+    position:fixed;
+    width:0;
+    transition: 0.5s;
+    
+}
+
+.content-items{
+    background-color: #6BB6CD;
+    
+    border-radius: 5px;
+    height:30px;
+    padding:5px;
+}
+
+.name{
+    color:white;
+    
+    font-size:x-large;
+}
+
+.content{
+    margin:5%;
+}
+
+.navbar{
+    float:left;
+    margin-top: 5%;
+    
+}
+
+.close{
+    float:right;
+}
+
+.logobar{
+    float:left;
+}
+
+.header{
+    float:left;
+}
+
+.regno{
+    float:right;
+    margin-top:5%;
+    margin-left:5%;
+}
+
+.logo{
+    width:300px;
+    margin-left:5%;
+}
+
