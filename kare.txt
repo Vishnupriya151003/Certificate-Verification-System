@@ -1,0 +1,173 @@
+===Database kare
+
+== Table structure for table certify
+
+|------
+|Column|Type|Null|Default
+|------
+|id|varchar(25)|No|
+|file|varchar(2000)|No|
+|course|varchar(100)|No|
+|subdate|varchar(20)|No|
+|v1date|varchar(20)|No|
+|v2date|varchar(20)|No|
+|reason|varchar(250)|No|
+== Dumping data for table certify
+
+|9921008080@klu.ac.in|uploads/9921008080@klu.ac.in-TOEFL.jpg|Soft Skills 1 &amp; 2|2023-12-10 |2023-12-14|0|Nil
+|9921008080@klu.ac.in|uploads/9921008080@klu.ac.in-GRE.jpg|Analytical Skills 1 &amp; 2|2024-05-06 |0|0|Nil
+|9921008080@klu.ac.in|uploads/9921008080@klu.ac.in-Others.jpg|Co-Curricular Activities-1|2023-12-14 |0|0|Certificate not clear
+|9921008080@klu.ac.in|uploads/9921008080@klu.ac.in-Others2.jpg|Co-Curricular Activities-2|2023-12-14 |2023-12-14|0|Nil
+|9921008080@klu.ac.in|uploads/9921008080@klu.ac.in-Others3.jpg|Co-Curricular Activities-3|2023-12-14 |0|0|Submitted
+== Table structure for table group
+
+|------
+|Column|Type|Null|Default
+|------
+|groupid|varchar(10)|No|
+|name|varchar(50)|No|
+|sect|varchar(50)|No|
+== Dumping data for table group
+
+|1|Soft Skills 1 &amp; 2|TOEFL
+|1|Soft Skills 1 &amp; 2|IELTS
+|1|Soft Skills 1 &amp; 2|BEC
+|1|Soft Skills 1 &amp; 2|MOOC
+|1|Soft Skills 1 &amp; 2|Other
+|1|Analytical Skills 1 &amp; 2|GATE
+|1|Analytical Skills 1 &amp; 2|GRE
+|1|Analytical Skills 1 &amp; 2|GMAT
+|1|Analytical Skills 1 &amp; 2|CAT
+|1|Analytical Skills 1 &amp; 2|NAC - TECH
+|1|Analytical Skills 1 &amp; 2|Other
+|2|Extra-Curricular Activities|NCC
+|2|Extra-Curricular Activities|NSS
+|2|Extra-Curricular Activities|Sports
+|2|Extra-Curricular Activities|Other
+|3|Co-Curricular Activities|Value Added Courses
+|3|Co-Curricular Activities|International Certificates
+|3|Co-Curricular Activities|Others
+== Table structure for table rolls
+
+|------
+|Column|Type|Null|Default
+|------
+|rollid|varchar(4)|No|
+|rollname|varchar(50)|No|
+== Dumping data for table rolls
+
+|1001|Engineering Student
+|1002|Arts Student
+|1003|Faculty
+|1004|Verifier
+|1005|Admin
+== Table structure for table signin
+
+|------
+|Column|Type|Null|Default
+|------
+|//**userid**//|varchar(25)|No|
+|username|varchar(100)|No|
+|password|varchar(100)|No|
+|roll|varchar(25)|No|
+|status|varchar(10)|No|
+== Dumping data for table signin
+
+|9921008007@klu.ac.in|S DHARSHINI|Nil|1001|Active
+|9921008050@klu.ac.in|S UMA MAHESWARI|Nil|1001|Active
+|9921008080@klu.ac.in|K VISHNUPRIYA|Nil|1001|Active
+|9921020012@klu.ac.in|K VISHALY|Nil|1002|Active
+|aishu9464@gmail.com| |Nil|1004|Inactive
+|d.premraja@klu.ac.in|D PREM RAJA|Nil|1003|Active
+|s.balakannan@klu.ac.in|S BALAKANNAN|Nil|1004|Active
+|s.dhanasekaran@klu.ac.in|S Dhanasekaran|HOD@IT|1005|Active
+|s.suprakash@klu.ac.in|S SUPRAKASH|Suprakash@01|1003|Active
+== Table structure for table users
+
+|------
+|Column|Type|Null|Default
+|------
+|name|varchar(150)|No|
+|//**id**//|varchar(25)|No|
+|year|varchar(10)|No|
+|degree|varchar(25)|No|
+|dept|varchar(50)|No|
+|status|varchar(10)|No|
+|faculty|varchar(100)|No|
+|verifier|varchar(150)|No|
+|certify|varchar(100)|No|
+== Dumping data for table users
+
+|HARIHARAN P|9822008002@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|KARTHIKAA P|9822008005@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|RAGUL GANESH K|9822008006@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|RAMYA B|9822008007@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SURENTHRAKUMAR K|9822008008@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|VISHWAKUMAR R|9822008010@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|AGIL KANNAN S|9921008001@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |not verified
+|ARCHANA S|9921008002@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|ATHITHYAN R|9921008003@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|DHANUSH KUMAR M|9921008005@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| | 
+|DHANUSH S|9921008006@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|S. Dharshini|9921008007@klu.ac.in| | | |Inactive|s.suprakash@klu.ac.in| | 
+|DINESH KUMAR S|9921008008@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|RAKESH E|9921008009@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|ANURAG G|9921008010@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|GOVINDARAJAN R|9921008011@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|HARRISH N|9921008012@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|HARSHAN RAJ R S|9921008013@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| | 
+|HARSHINI M K|9921008014@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|KARDEESWARAN P|9921008015@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|KRISHNADHARSHINI L|9921008016@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|LATHAMBIGAI K|9921008017@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|LOGESHWARAN N|9921008018@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|MANIKANTA M|9921008019@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|MUHAMAD NAJMUDEEN R|9921008021@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|DHANUSH M|9921008022@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|MUTHU LAKSHMI M|9921008024@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|NAVEEN KUMAR T|9921008025@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| | 
+|SANDEEP N V S S|9921008026@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|PADMA A|9921008027@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|MALLIKARJUN REDDY P|9921008028@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|PREM KUMAR N|9921008029@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|RAJESHWARI K|9921008030@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|UMESH CHANDRA S|9921008032@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| | 
+|SARAVANA KUMAR S|9921008033@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SARAVANA PRIYA M|9921008034@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SEENU S|9921008036@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SAI HARSHA S|9921008039@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SIVA ABINESH M|9921008040@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SIVA SUBRAMANIAN R|9921008041@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SIVA SURYA S|9921008042@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SUBRAMANIAN K|9921008043@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SUNDARI M|9921008044@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| | 
+|SWETHA P R|9921008045@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|PAVAN KUMAR T|9921008046@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|THIRUMAGESH K|9921008048@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|S. Uma Maheswari|9921008050@klu.ac.in|III|B.TECH|CSE|Active|d.premraja@klu.ac.in|s.dhanasekaran@klu.ac.in|submitted
+|VISWA M|9921008051@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|VIJAYALAKSHMI K|9921008053@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|BHUVANESHWAR A|9921008054@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|HARSHINI D K|9921008055@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| | 
+|HARIHARAN V|9921008057@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|AKAASH J|9921008059@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|GOKUL L|9921008060@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|GOPAL KUMAR|9921008061@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|MEENAKSHI SUNDARAM N|9921008062@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|NITHISH RAJA V|9921008063@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|BHARADWAJ R|9921008064@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|ROHIT KUMAR|9921008065@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|LAVAN KUMAR|9921008066@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SURYA S|9921008067@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|RAM KALYAN C H|9921008073@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SAI TEJA J|9921008074@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|DINESH YADHAV|9921008075@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|VINAY MANOHAR R|9921008077@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|REVANTH SAI K|9921008078@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|VIKRAM KUMAR|9921008079@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|K. Vishnupriya|9921008080@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in|s.dhanasekaran@klu.ac.in|submitted
+|RAGUNATH S|9921008081@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|SABARISH B|9921008082@klu.ac.in|III|B.TECH|IT|Active|s.suprakash@klu.ac.in| |submitted
+|ADARSH PRAKASH|9921008085@klu.ac.in|III|B.TECH|IT|Active|d.premraja@klu.ac.in| |submitted
+|K. Vishaly|9921020012@klu.ac.in|III|B.SC|IT|Active|s.suprakash@klu.ac.in|s.dhanasekaran@klu.ac.in|submitted
+| |aishu9464@gmail.com| | | |Inactive|s.suprakash@klu.ac.in|d.premraja@klu.ac.in| 
